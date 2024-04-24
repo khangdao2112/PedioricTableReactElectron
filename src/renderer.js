@@ -30,8 +30,16 @@
 
 // console.log('👋 This message is being logged by "renderer.js", included via webpack');
 
-import './index.css';
+// import './index.css';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// console.log('Loaded React.');
+// ReactDOM.render(<div>Test.</div>, document.getElementById('root'));
+
+import "./components/styles/main.css";
 import React from 'react';
-import ReactDOM from 'react-dom';
-console.log('Loaded React.');
-ReactDOM.render(<div>Test.</div>, document.getElementById('root'));
+import App from './App';
+import { createRoot } from 'react-dom/client';
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App tab="home" />);
