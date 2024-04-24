@@ -3410,6 +3410,11 @@ get-stream@^6.0.0:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
+github-buttons@^2.22.0:
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.28.0.tgz#53b2413d29fa04c20b9c2001532a99e32484a449"
+  integrity sha512-KsCbYiA+MiHO3ytzdGvGt/GNde4GfG9BrrLxxc+ut2snBF9IAjrn2F5mNgHHEXdG/CfFIHOMV8Uxy4LNhxZwUA==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
@@ -5002,6 +5007,13 @@ react-dom@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-github-btn@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-github-btn/-/react-github-btn-1.4.0.tgz#92654107e92658e60dd977c7a92b212f806da78d"
+  integrity sha512-lV4FYClAfjWnBfv0iNlJUGhamDgIq6TayD0kPZED6VzHWdpcHmPfsYOZ/CFwLfPv4Zp+F4m8QKTj0oy2HjiGXg==
+  dependencies:
+    github-buttons "^2.22.0"
 
 react@^18.2.0:
   version "18.2.0"
