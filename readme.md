@@ -46,6 +46,8 @@ yarn start
 ```bash
 yarn make
 ```
+Your executable should be in `out\pediorictablereactelectron-win32-x64\pediorictablereactelectron.exe` and the installer should be in `out\make\squirrel.windows\x64\pediorictablereactelectron-1.0.0 Setup.exe`
+
 ## To-do
 I might try to maintain and improve the app if I have free-time and the neccessary skills 🐧
 - Improve UI
