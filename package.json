@@ -6,9 +6,10 @@
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
+    "react:start": "react-scripts start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "electron-forge publish",
+    "publish": "env-cmd electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
   "devDependencies": {
@@ -37,10 +38,13 @@
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
     "@babel/preset-react": "^7.24.1",
+    "@electron-forge/publisher-github": "^7.4.0",
     "babel-loader": "^9.1.3",
     "electron-squirrel-startup": "^1.0.0",
+    "env-cmd": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-github-btn": "^1.4.0"
+    "react-github-btn": "^1.4.0",
+    "react-scripts": "^5.0.1"
   }
 }

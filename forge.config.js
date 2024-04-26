@@ -62,4 +62,16 @@ module.exports = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'laex2112',
+          name: 'PedioricTableReactElectron',
+        },
+        prerelease: false,
+      },
+    },
+  ],
 };
