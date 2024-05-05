@@ -6,7 +6,7 @@ To be honest with you I personally don't have much web development skill lol. So
 >**"If you can't do it, steal it"**  
 >*- probably me -*  
 
-Luckily I found this awesome Peridocic Table website using **ReactJS** by [Tamal Anwar Chowdhury](https://github.com/tamalchowdhury) (Please check him out I've been reading some of his articles recently and they're awesome). His implementation is simple but really easy to understand. Also through this project I've kinda grasped a bit of how ReactJS works.  
+Luckily I found this awesome Periodic Table website using **ReactJS** by [Tamal Anwar Chowdhury](https://github.com/tamalchowdhury) (Please check him out I've been reading some of his articles recently and they're awesome). His implementation is simple but really easy to understand. Also through this project I've kinda grasped a bit of how ReactJS works.  
 The real challenge here though is how do I get it to run as a program on my computer. This is where **ElectronJS** comes in. As I mentioned above I don't really have web-dev experience (I really mean it LOL I don't even know JavaScript) so throughout the process of transitioning his website to an actual app is really hard.
 ## The problem
 You see normally ElectronJS would just run anything you put in `index.html` and then render it on the app window. But for React the outputs are all rendered code, so initially I pointed Electron to render my `localhost:3000` because React runs on port 3000. The problem is that you would have to start the web server first then launch Electron. This also caused problem to the build as well. So I had to redo the entire thing through this **Webpack** thing.  
